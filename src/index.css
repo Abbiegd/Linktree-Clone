@@ -1,0 +1,111 @@
+/* Importing a font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* Styling for the main title of the webpage */
+.WebpageTitle {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  font-weight: 600; /* Font weight */
+  padding-top: 20px; /* Top padding */
+  margin-top: 10px; /* Top margin */
+  margin-bottom: 0px; /* Bottom margin */
+}
+
+/* General body styling */
+body {
+  /* Background image settings */
+  background-image: url(./components/images/digital-art-with-city-landscape-architecture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Flexbox layout settings */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Minimum viewport height */
+  margin: 0; /* Resetting margins */
+  margin-left: 15px; /* Left margin */
+}
+
+/* Styling for the footer */
+.footer {
+  /* Fixed positioning to the bottom right */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right; /* Text alignment */
+  padding: 20px; /* Padding */
+}
+
+/* Styling for links within the footer */
+.footer a {
+  color: #752E2F; /* Changing URL color to orange */
+  text-decoration: underline; /* Underline for links */
+}
+
+/* Hover effect for links within the footer */
+.footer a:hover {
+  color: #ccc; /* Change link color on hover */
+}
+
+/* Styling for the main container */
+.container {
+  /* Background color with some transparency */
+  background-color: rgba(148, 55, 55, 0.7);
+  border-radius: 30px; /* Rounded corners */
+  font-family: Arial, Helvetica, sans-serif; /* Font family */
+  color: whitesmoke; /* Text color */
+  text-align: center; /* Center-aligned content */
+  height: 430px; /* Fixed height */
+  width: 250px; /* Fixed width */
+  max-width: 600px; /* Maximum width */
+}
+
+/* Styling for the profile image */
+.MyImage {
+  /* Styling for circular profile image */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+  margin-bottom: -20px; /* Adjust the margin as needed */
+}
+
+/* Styling for section titles */
+.SectionTitle {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  font-weight: 600; /* Font weight */
+  font-size: 18px; /* Font size */
+  margin-bottom: 5px; /* Bottom margin */
+  padding-top: 5px; /* Top padding */
+}
+
+/* Styling for paragraphs */
+p {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  font-weight: 600; /* Font weight */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling for link buttons */
+.linkButton {
+  /* Button styles */
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  font-weight: 600; /* Font weight */
+  color: white; /* Text color */
+  background-color: #412228; /* Background color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  margin-top: 5px; /* Top margin */
+}
+
+/* Hover effect for link buttons */
+.linkButton:hover {
+  background-color: #752E2F; /* Change background color on hover */
+}
+
